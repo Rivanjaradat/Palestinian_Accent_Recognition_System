@@ -22,15 +22,25 @@ pip install numpy scipy scikit-learn librosa pyaudio pydub tkinter
 ## Functions:
 
 load_audio_files(directory_path): Loads audio files from a given directory.
+
 extract_features(audio_data): Extracts MFCCs, chroma, and spectral contrast features from the audio data.
+
 prepare_data(data_dirs, labels): Prepares the data for training/testing by loading and extracting features.
+
 predict_dialect(clf, le, audio_file): Predicts the dialect of a given audio file.
+
 train_model_and_generate_initial_report(): Trains the model and generates an initial classification report.
+
 convert_to_wav(file_path): Converts an audio file to WAV format.
+
 play_sound(filename): Plays an audio file.
+
 select_file(entry_widget): Handles file selection through a GUI.
+
 clear_entry(entry_widget): Clears the entry widget in the GUI.
+
 predict_dialect_ui(entry_widget): Handles dialect prediction through the GUI.
+
 print_report(): Prints the classification report in the GUI.
 ## Screenshots
 
